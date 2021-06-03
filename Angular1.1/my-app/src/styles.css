@@ -10,3 +10,7 @@ html, body{
     color: #3e4144;
     
 }
+
+img{
+    max-width: 100%;
+}
