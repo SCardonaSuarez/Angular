@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { myFirstClass } from './app.myFist-Component';
 import { AppComponent } from './app.component';
+import { FirstComponentComponent } from './first-component/first-component.component';
 
 @NgModule({
   declarations: [
-    myFirstClass,
     AppComponent,
+    FirstComponentComponent,
     
   ],
   imports: [
